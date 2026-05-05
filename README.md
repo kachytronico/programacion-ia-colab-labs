@@ -1,60 +1,55 @@
 # Programación de IA — Colab Labs
 
-Portfolio sencillo de cuadernos de **Programación de Inteligencia Artificial** realizados en Google Colab durante mi formación en **IA & Big Data**.
+Portfolio sencillo de cuadernos de **Programación de Inteligencia Artificial** realizados en **Google Colab** durante mi formación en **IA & Big Data**.
 
-La idea de este repositorio es mostrar trabajos prácticos reales, bien contextualizados y fáciles de abrir, no crear una estructura complicada ni convertirlo en un almacén de tareas.
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb)
-
----
-
-## Qué demuestra este repositorio
-
-Este repo muestra competencias prácticas en:
-
-- uso de **Python, Jupyter y Google Colab**;
-- análisis y preparación de datos;
-- entrenamiento y evaluación de modelos de IA;
-- visión por computador aplicada a clasificación de imágenes;
-- interpretación de métricas, matriz de confusión y errores críticos;
-- documentación técnica clara para explicar qué se ha hecho y por qué.
+El objetivo de este repositorio es mostrar trabajos prácticos reales, con contexto suficiente para entender qué se ha trabajado y qué competencias técnicas se demuestran, sin convertirlo en un almacén de tareas.
 
 ---
 
 ## Cuadernos disponibles
 
-| Cuaderno | Tema | Competencias mostradas | Estado | Abrir |
-|---|---|---|---|---|
-| [`neumon_ia_image_classification.ipynb`](neumon_ia_image_classification.ipynb) | Clasificación de imágenes médicas con deep learning | Limpieza del dataset, split estratificado, carga con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb) |
-| `energy_economics_clustering.ipynb` | Economía energética, reducción de dimensionalidad y clustering | Preprocesamiento, correlación, PCA, KMeans, clustering jerárquico, pseudoetiquetas e interpretación con modelo supervisado | Pendiente de subir / revisar | — |
-| `retinal_fundus_image_classification.ipynb` | Clasificación de imágenes de fondo de ojo | Modelo base, learning rate, early stopping, data augmentation, matriz de confusión y control de falsos positivos | Pendiente de subir / revisar | — |
+| Cuaderno | Tema | Competencias mostradas | Abrir en Colab |
+|---|---|---|---|
+| [`energy_economics_clustering.ipynb`](energy_economics_clustering.ipynb) | Economía energética, reducción de dimensionalidad y clustering | Carga y revisión de datos, análisis temporal, limpieza, tratamiento de nulos, correlación, PCA, KMeans, clustering jerárquico, pseudoetiquetas e interpretación con modelo supervisado | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/energy_economics_clustering.ipynb) |
+| [`neumon_ia_image_classification.ipynb`](neumon_ia_image_classification.ipynb) | Clasificación de imágenes con deep learning | Inspección y limpieza del dataset, split estratificado, carga de imágenes con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb) |
+| [`retinal_fundus_image_classification.ipynb`](retinal_fundus_image_classification.ipynb) | Clasificación de imágenes de fondo de ojo | Entrenamiento de modelo base, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión y métrica personalizada orientada a controlar falsos positivos | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/retinal_fundus_image_classification.ipynb) |
 
 ---
 
-## Cuaderno destacado: Neumon-IA
+## Qué demuestra este repositorio
 
-El cuaderno principal actualmente publicado es **Neumon-IA Image Classification**.
+Este repositorio muestra competencias prácticas en:
 
-En este trabajo se desarrolla un flujo práctico de visión por computador para clasificar imágenes, prestando atención a varios puntos importantes:
+- uso de **Python, Jupyter y Google Colab**;
+- análisis exploratorio y preparación de datos;
+- reducción de dimensionalidad y aprendizaje no supervisado;
+- uso de modelos supervisados para interpretar resultados;
+- visión por computador aplicada a clasificación de imágenes;
+- evaluación de modelos mediante métricas, matriz de confusión y análisis de errores;
+- explicación escrita del proceso seguido y de las decisiones técnicas.
 
-1. revisar la estructura del dataset antes de entrenar;
-2. detectar riesgos, duplicados o datos que puedan contaminar el entrenamiento;
-3. crear una división adecuada entre entrenamiento, validación y test;
-4. cargar imágenes con un flujo reproducible;
-5. entrenar un modelo base;
-6. aplicar mejoras y comparar resultados;
-7. interpretar la matriz de confusión;
-8. analizar errores críticos, especialmente los falsos negativos.
+---
 
-Este tipo de ejercicio es útil porque no solo muestra código: muestra criterio para preparar datos, entrenar modelos y explicar resultados.
+## Cómo leer los cuadernos
+
+Cada cuaderno debe leerse como una práctica de aprendizaje aplicada:
+
+1. **Problema:** qué se intenta resolver o analizar.
+2. **Datos:** qué dataset se usa y cómo se prepara.
+3. **Proceso:** qué pasos técnicos se aplican.
+4. **Modelo:** qué técnica o arquitectura se usa.
+5. **Evaluación:** qué métricas o resultados se revisan.
+6. **Interpretación:** qué se aprende del resultado y qué límites tiene.
+
+La parte importante no es solo que el código funcione, sino que se vea el razonamiento: preparación de datos, elección de técnicas, evaluación y explicación.
 
 ---
 
 ## Cómo ejecutar los cuadernos
 
-La forma recomendada es abrirlos en **Google Colab** usando el botón **Open in Colab**.
+La forma recomendada es usar los botones **Open in Colab** de la tabla.
 
-GitHub permite ver el notebook, pero Colab es más cómodo para ejecutarlo, modificarlo y probarlo.
+GitHub permite ver los notebooks de forma estática, pero **Google Colab** es la opción más cómoda para ejecutarlos, modificarlos y probarlos sin configurar un entorno local.
 
 ---
 
@@ -68,7 +63,7 @@ Este repositorio **no** es:
 - un producto médico o clínico;
 - un modelo preparado para producción.
 
-Es un **portfolio de aprendizaje**, con cuadernos seleccionados y explicados para mostrar progreso técnico.
+Es un **portfolio de aprendizaje** con cuadernos seleccionados para mostrar progreso técnico y capacidad de explicación.
 
 ---
 
@@ -78,7 +73,7 @@ Los trabajos relacionados con salud se presentan con finalidad **educativa y té
 
 No deben interpretarse como herramientas médicas, diagnósticas ni de apoyo a decisiones clínicas. Los resultados dependen del dataset, del entrenamiento y de las condiciones del ejercicio.
 
-Antes de publicar cualquier notebook se revisa que no incluya datos personales, materiales privados del curso ni información sensible.
+Antes de publicar cualquier cuaderno conviene revisar que no incluya datos personales, materiales privados del curso ni información sensible.
 
 ---
 
@@ -92,10 +87,10 @@ Me interesa especialmente construir y explicar soluciones de IA que ayuden a com
 
 ## Próximos pasos
 
-- Añadir el cuaderno de economía energética y clustering.
-- Añadir el cuaderno de fondo de ojo.
-- Revisar los notebooks para eliminar enunciados privados o contenido innecesario.
+- Revisar los cuadernos para eliminar cualquier contenido innecesario o privado.
+- Añadir una breve conclusión final en cada notebook si falta.
 - Mantener el repo simple: README claro + cuadernos visibles + botones de Colab.
+- Más adelante, seleccionar 1 o 2 capturas útiles para enseñar resultados sin abrir el notebook completo.
 
 ---
 
