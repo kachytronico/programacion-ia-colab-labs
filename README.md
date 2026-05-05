@@ -1,148 +1,104 @@
 # Programación de IA — Colab Labs
 
-> Portfolio curado de notebooks de Programación de IA: Python, preprocesamiento de datos, aprendizaje automático y visión por computador.
+Portfolio sencillo de cuadernos de **Programación de Inteligencia Artificial** realizados en Google Colab durante mi formación en **IA & Big Data**.
+
+La idea de este repositorio es mostrar trabajos prácticos reales, bien contextualizados y fáciles de abrir, no crear una estructura complicada ni convertirlo en un almacén de tareas.
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb)
 
 ---
 
-## Sobre este repositorio
+## Qué demuestra este repositorio
 
-Este repositorio es un portfolio de aprendizaje construido a partir de notebooks seleccionados, creados durante mi formación en el **Curso de Especialización en Inteligencia Artificial y Big Data**.
+Este repo muestra competencias prácticas en:
 
-**Qué es este repositorio:**
-- Una colección curada de trabajos prácticos de la asignatura de Programación de IA.
-- Notebooks limpios, contextualizados y documentados para mostrar proceso de aprendizaje, razonamiento técnico y toma de decisiones.
-- Evidencia técnica de mi progreso en Python aplicado a IA.
-
-**Qué NO es este repositorio:**
-- No es un repositorio oficial del curso ni de ningún centro educativo.
-- No es un volcado sin editar de tareas o entregas de examen.
-- No contiene materiales del profesorado, enunciados privados ni contenido protegido.
-
-Los notebooks se limpian, renombran y documentan antes de publicarse, para que sean comprensibles tanto para lectores técnicos como no técnicos.
+- uso de **Python, Jupyter y Google Colab**;
+- análisis y preparación de datos;
+- entrenamiento y evaluación de modelos de IA;
+- visión por computador aplicada a clasificación de imágenes;
+- interpretación de métricas, matriz de confusión y errores críticos;
+- documentación técnica clara para explicar qué se ha hecho y por qué.
 
 ---
 
-## Qué muestra
+## Cuadernos disponibles
 
-- Flujo de trabajo con Python y Google Colab.
-- Análisis exploratorio de datos y preprocesamiento.
-- Reducción de dimensionalidad y clustering.
-- Aprendizaje supervisado y pseudo-etiquetado.
-- Visión por computador con deep learning.
-- Evaluación e interpretación de modelos.
-- Explicación clara de decisiones y limitaciones.
-
----
-
-## Notebooks destacados
-
-<!-- Actualiza los enlaces "Open in Colab" una vez que los notebooks estén subidos a GitHub -->
-
-| Notebook | Área | Técnicas | Estado | Open in Colab |
+| Cuaderno | Tema | Competencias mostradas | Estado | Abrir |
 |---|---|---|---|---|
-| [Energy Economics Clustering](notebooks/01_energy_economics_clustering/) | Clustering / ML no supervisado | Preprocesamiento, validación temporal, correlación, PCA, KMeans, clustering aglomerativo, pseudo-etiquetado, modelo supervisado | Pendiente — notebook por añadir | *(badge disponible al subir el notebook)* |
-| [Neumon-IA Image Classification](notebooks/02_neumon_ia_image_classification/) | Visión por computador | Inspección y limpieza de dataset, split estratificado, DataBlock, modelo base, optimización, comparación de arquitecturas, matriz de confusión, análisis de errores críticos | Pendiente — notebook por añadir | *(badge disponible al subir el notebook)* |
-| [Retinal Fundus Image Classification](notebooks/03_retinal_fundus_image_classification/) | Visión por computador | Modelo baseline, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión, métrica personalizada para falsos positivos | Pendiente — notebook por añadir | *(badge disponible al subir el notebook)* |
-
-> **Cómo añadir el badge Open in Colab:** Una vez que el notebook esté en GitHub, usa este patrón:
->
-> ```markdown
-> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/notebooks/<carpeta>/<nombre>.ipynb)
-> ```
+| [`neumon_ia_image_classification.ipynb`](neumon_ia_image_classification.ipynb) | Clasificación de imágenes médicas con deep learning | Limpieza del dataset, split estratificado, carga con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb) |
+| `energy_economics_clustering.ipynb` | Economía energética, reducción de dimensionalidad y clustering | Preprocesamiento, correlación, PCA, KMeans, clustering jerárquico, pseudoetiquetas e interpretación con modelo supervisado | Pendiente de subir / revisar | — |
+| `retinal_fundus_image_classification.ipynb` | Clasificación de imágenes de fondo de ojo | Modelo base, learning rate, early stopping, data augmentation, matriz de confusión y control de falsos positivos | Pendiente de subir / revisar | — |
 
 ---
 
-## Cómo leer cada notebook
+## Cuaderno destacado: Neumon-IA
 
-Cada notebook sigue esta estructura de lectura recomendada:
+El cuaderno principal actualmente publicado es **Neumon-IA Image Classification**.
 
-1. **Objetivo** — Qué problema se aborda y por qué.
-2. **Dataset / fuente** — Origen y características principales de los datos.
-3. **Preprocesamiento** — Limpieza, transformaciones y decisiones sobre los datos.
-4. **Modelo o técnica** — Justificación de la elección y configuración.
-5. **Evaluación** — Métricas, visualizaciones y comparaciones.
-6. **Interpretación** — Qué significan los resultados en contexto.
-7. **Limitaciones** — Qué no resuelve este enfoque y por qué.
-8. **Qué aprendí** — Reflexión honesta sobre el proceso.
+En este trabajo se desarrolla un flujo práctico de visión por computador para clasificar imágenes, prestando atención a varios puntos importantes:
+
+1. revisar la estructura del dataset antes de entrenar;
+2. detectar riesgos, duplicados o datos que puedan contaminar el entrenamiento;
+3. crear una división adecuada entre entrenamiento, validación y test;
+4. cargar imágenes con un flujo reproducible;
+5. entrenar un modelo base;
+6. aplicar mejoras y comparar resultados;
+7. interpretar la matriz de confusión;
+8. analizar errores críticos, especialmente los falsos negativos.
+
+Este tipo de ejercicio es útil porque no solo muestra código: muestra criterio para preparar datos, entrenar modelos y explicar resultados.
 
 ---
 
-## Cómo ejecutar
+## Cómo ejecutar los cuadernos
 
-Los notebooks están diseñados para abrirse en **Google Colab**.
+La forma recomendada es abrirlos en **Google Colab** usando el botón **Open in Colab**.
 
-Para abrir cualquier notebook directamente desde GitHub:
+GitHub permite ver el notebook, pero Colab es más cómodo para ejecutarlo, modificarlo y probarlo.
 
-```
-https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/<ruta-al-notebook>.ipynb
-```
+---
 
-**Patrón del badge "Open in Colab"** (adaptar para cada notebook):
+## Qué NO es este repositorio
 
-```markdown
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/notebooks/<carpeta>/<nombre>.ipynb)
-```
+Este repositorio **no** es:
 
-GitHub renderiza los notebooks de forma estática. Para ejecutarlos, Google Colab es la opción recomendada.
+- un repositorio oficial del centro educativo;
+- una colección de enunciados del curso;
+- un volcado completo de tareas;
+- un producto médico o clínico;
+- un modelo preparado para producción.
 
-Consulta [`docs/COLAB_GUIDE.md`](docs/COLAB_GUIDE.md) para más detalles.
+Es un **portfolio de aprendizaje**, con cuadernos seleccionados y explicados para mostrar progreso técnico.
 
 ---
 
 ## Ética, privacidad y límites
 
-- No se publican datos personales ni sensibles.
-- No se incluyen materiales privados del curso.
-- Los notebooks relacionados con salud son herramientas educativas, no herramientas médicas.
-- Los resultados son ejercicios de aprendizaje, no modelos de producción.
-- Los datasets utilizados son públicos, sintéticos o de uso claramente permitido.
+Los trabajos relacionados con salud se presentan con finalidad **educativa y técnica**.
 
-Consulta [`docs/ETHICS_AND_PRIVACY.md`](docs/ETHICS_AND_PRIVACY.md) para más información.
+No deben interpretarse como herramientas médicas, diagnósticas ni de apoyo a decisiones clínicas. Los resultados dependen del dataset, del entrenamiento y de las condiciones del ejercicio.
+
+Antes de publicar cualquier notebook se revisa que no incluya datos personales, materiales privados del curso ni información sensible.
 
 ---
 
 ## Relación con mi perfil profesional
 
-Este repositorio apoya mi posicionamiento profesional en las siguientes áreas:
+Este repositorio forma parte de mi portfolio como estudiante de **IA & Big Data** y futuro formador en **IA aplicada**.
 
-- Formación en IA y Big Data.
-- Python y ML aplicado.
-- Capacidad para documentar y explicar trabajo técnico con claridad.
-- Interés en educación, salud e impacto social.
-- Formación como futuro formador en IA aplicada.
+Me interesa especialmente construir y explicar soluciones de IA que ayuden a comprender problemas reales en educación, salud e impacto social, siempre desde un enfoque práctico, responsable y honesto.
 
-El objetivo es mostrar no solo que puedo implementar técnicas, sino que entiendo el proceso, las limitaciones y el contexto de aplicación.
+---
+
+## Próximos pasos
+
+- Añadir el cuaderno de economía energética y clustering.
+- Añadir el cuaderno de fondo de ojo.
+- Revisar los notebooks para eliminar enunciados privados o contenido innecesario.
+- Mantener el repo simple: README claro + cuadernos visibles + botones de Colab.
 
 ---
 
 ## English summary
 
-This repository is a curated learning portfolio built from selected notebooks created during an official AI & Big Data specialization. It focuses on the Programming of AI track: Python, Google Colab, data preprocessing, unsupervised and supervised learning, computer vision, and model evaluation. The notebooks are cleaned, documented and contextualized to show learning process and technical reasoning — not raw assignment submissions. This is not an official course repository. It supports my professional positioning as a future applied AI trainer, with a focus on clarity, honest documentation and responsible use of data.
-
----
-
-## Estructura del repositorio
-
-```
-programacion-ia-colab-labs/
-├── README.md
-├── LICENSE
-├── .gitignore
-├── notebooks/
-│   ├── README.md
-│   ├── 01_energy_economics_clustering/
-│   ├── 02_neumon_ia_image_classification/
-│   └── 03_retinal_fundus_image_classification/
-├── docs/
-│   ├── COURSE_CONTEXT.md
-│   ├── NOTEBOOK_TEMPLATE.md
-│   ├── PUBLISHING_CHECKLIST.md
-│   ├── ETHICS_AND_PRIVACY.md
-│   └── COLAB_GUIDE.md
-└── assets/
-    └── screenshots/
-```
-
----
-
-*Portfolio de aprendizaje personal — no es un repositorio oficial del curso.*
+This repository is a simple curated portfolio of AI programming notebooks created in Google Colab during my AI & Big Data training. It focuses on practical work: Python, data preparation, machine learning, computer vision, model evaluation and clear explanation of results. It is not an official course repository and it is not intended for medical or production use.
