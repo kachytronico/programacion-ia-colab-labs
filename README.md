@@ -11,11 +11,14 @@ El objetivo de este repositorio es mostrar trabajos prácticos reales, con conte
 | Cuaderno | Tema | Competencias mostradas | Estado | Abrir en Colab |
 |---|---|---|---|---|
 | [`energy_economics_clustering.ipynb`](energy_economics_clustering.ipynb) | Economía energética, reducción de dimensionalidad y clustering | Carga y revisión de datos, análisis temporal, limpieza, tratamiento de nulos, correlación, PCA, KMeans, clustering jerárquico, pseudoetiquetas e interpretación con modelo supervisado | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/energy_economics_clustering.ipynb) |
-| `neumon_ia_image_classification.ipynb` | Clasificación de imágenes con deep learning | Inspección y limpieza del dataset, split estratificado, carga de imágenes con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | Pendiente de resubir: el archivo actual está vacío | — |
+| `neumon_ia_image_classification.ipynb` | Clasificación de imágenes con deep learning | Inspección y limpieza del dataset, split estratificado, carga de imágenes con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos |Disponible| o base, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión y métrica personalizada orientada a controlar falsos positivos | Disponible | [![Open in Colab] (https://github.com/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb) |
 | [`retinal_fundus_image_classification.ipynb`](retinal_fundus_image_classification.ipynb) | Clasificación de imágenes de fondo de ojo | Entrenamiento de modelo base, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión y métrica personalizada orientada a controlar falsos positivos | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/retinal_fundus_image_classification.ipynb) |
 
 ### Ejemplo entrenamiento para la Clasificación de imágenes de fondo de ojo:
 <img width="1118" height="1453" alt="image" src="https://github.com/user-attachments/assets/15930750-34a6-41f6-98df-32c1037b6c68" />
+
+### Ejemplo entrenamiento para la Clasificación de imágenes de neunonía:
+<img width="1728" height="1349" alt="image" src="https://github.com/user-attachments/assets/0856c41f-8796-41df-b060-ef4d95e3700a" />
 
 ---
 
