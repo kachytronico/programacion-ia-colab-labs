@@ -14,6 +14,9 @@ El objetivo de este repositorio es mostrar trabajos prácticos reales, con conte
 | `neumon_ia_image_classification.ipynb` | Clasificación de imágenes con deep learning | Inspección y limpieza del dataset, split estratificado, carga de imágenes con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | Pendiente de resubir: el archivo actual está vacío | — |
 | [`retinal_fundus_image_classification.ipynb`](retinal_fundus_image_classification.ipynb) | Clasificación de imágenes de fondo de ojo | Entrenamiento de modelo base, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión y métrica personalizada orientada a controlar falsos positivos | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/retinal_fundus_image_classification.ipynb) |
 
+### Ejemplo entrenamiento para la Clasificación de imágenes de fondo de ojo:
+<img width="1118" height="1453" alt="image" src="https://github.com/user-attachments/assets/15930750-34a6-41f6-98df-32c1037b6c68" />
+
 ---
 
 ## Qué demuestra este repositorio
