@@ -8,11 +8,11 @@ El objetivo de este repositorio es mostrar trabajos prácticos reales, con conte
 
 ## Cuadernos disponibles
 
-| Cuaderno | Tema | Competencias mostradas | Abrir en Colab |
-|---|---|---|---|
-| [`energy_economics_clustering.ipynb`](energy_economics_clustering.ipynb) | Economía energética, reducción de dimensionalidad y clustering | Carga y revisión de datos, análisis temporal, limpieza, tratamiento de nulos, correlación, PCA, KMeans, clustering jerárquico, pseudoetiquetas e interpretación con modelo supervisado | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/energy_economics_clustering.ipynb) |
-| [`neumon_ia_image_classification.ipynb`](neumon_ia_image_classification.ipynb) | Clasificación de imágenes con deep learning | Inspección y limpieza del dataset, split estratificado, carga de imágenes con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/neumon_ia_image_classification.ipynb) |
-| [`retinal_fundus_image_classification.ipynb`](retinal_fundus_image_classification.ipynb) | Clasificación de imágenes de fondo de ojo | Entrenamiento de modelo base, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión y métrica personalizada orientada a controlar falsos positivos | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/retinal_fundus_image_classification.ipynb) |
+| Cuaderno | Tema | Competencias mostradas | Estado | Abrir en Colab |
+|---|---|---|---|---|
+| [`energy_economics_clustering.ipynb`](energy_economics_clustering.ipynb) | Economía energética, reducción de dimensionalidad y clustering | Carga y revisión de datos, análisis temporal, limpieza, tratamiento de nulos, correlación, PCA, KMeans, clustering jerárquico, pseudoetiquetas e interpretación con modelo supervisado | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/energy_economics_clustering.ipynb) |
+| `neumon_ia_image_classification.ipynb` | Clasificación de imágenes con deep learning | Inspección y limpieza del dataset, split estratificado, carga de imágenes con FastAI, entrenamiento de modelo base, optimización, comparación de arquitecturas, matriz de confusión y análisis de errores críticos | Pendiente de resubir: el archivo actual está vacío | — |
+| [`retinal_fundus_image_classification.ipynb`](retinal_fundus_image_classification.ipynb) | Clasificación de imágenes de fondo de ojo | Entrenamiento de modelo base, búsqueda de learning rate, early stopping, data augmentation, matriz de confusión y métrica personalizada orientada a controlar falsos positivos | Disponible | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kachytronico/programacion-ia-colab-labs/blob/main/retinal_fundus_image_classification.ipynb) |
 
 ---
 
@@ -87,6 +87,7 @@ Me interesa especialmente construir y explicar soluciones de IA que ayuden a com
 
 ## Próximos pasos
 
+- Resubir `neumon_ia_image_classification.ipynb`, porque el archivo actual se ha quedado vacío.
 - Revisar los cuadernos para eliminar cualquier contenido innecesario o privado.
 - Añadir una breve conclusión final en cada notebook si falta.
 - Mantener el repo simple: README claro + cuadernos visibles + botones de Colab.
